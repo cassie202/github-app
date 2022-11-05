@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import App from "./App.js";
-import HomeCss from "./Home.css";
+import Css from "./App.css"
 
 
   
@@ -69,7 +69,7 @@ import HomeCss from "./Home.css";
     
 function Home() {
   return (
-    <div>
+    <div className="container">
       <div className="side-bar">
         <img src='https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=2000'className = "avatar" alt='avatar'/>
         <h1 className="full-name">Cassandra Umeh</h1>
@@ -83,14 +83,16 @@ function Home() {
 
       <div className="main">
         <h1 className="heading"> Repositories. 42</h1>
-        <input type="text" value="find a repository..."/>
-
+        <input id ="input" type="text" value="find a repository..."/>
+        
         <h3 className="get-data">github-app</h3>
         <p className="public">public</p>
         <p className="language">javascript</p>
+        
+       
         <button className="star-btn">Star</button>
-
-        <h3 className="get-data">random-user-app</h3>
+       
+        <h3 onClick = "" className="get-data">random-user-app</h3>
         <p className="public">public</p>
         <p className="language">javascript</p>
         <button className="star-btn">Star</button>

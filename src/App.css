@@ -3,74 +3,40 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  color: #dad7cd;
-  background: #588157;
+  color: #343a40;
+    background: #e9ecef;
 }
+.container{
+  display: flex;
+  
+}
+.get-data{
+  color:#4361ee;
+}
+
+#input{
+  padding: 5px 100px;
+  border: 0.5px solid #6c7075; 
+  border-radius: 2px;
+}
+.avatar{
+  width: 100px;
+  border-radius:50px;
+
+}
+
 .Home-btn {
-  background: #dad7cd;
-  color: #3a5a40;
+  background: #4895ef;
+  color: #e9ecef;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
   font-size: 18px;
   margin-top: 20px;
 }
-.container {
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.info {
-  color: #3a5a40;
-  font-weight: lighter;
-  margin: 0 5px;
-  text-align: left;
+
+.Errorcontainer {
+  text-align: center;
+  margin: 200px;
 }
 
-.image {
-  width: 150px;
-  margin: 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-.item {
-  background: #dad7cd;
-  text-align: center;
-  border-radius: 10px;
-}
-.pagination {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-.previous-btn {
-  background: #dad7cd;
-  color: #3a5a40;
-  font-size: xx-large;
-  font-weight: bold;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-.button-next {
-  background: #dad7cd;
-  color: #3a5a40;
-  font-size: xx-large;
-  font-weight: bold;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-.button-next:hover {
-  background-color: #a0a0a0;
-}
-.previous-btn:hover {
-  background-color: #a0a0a0;
-}
-.page-num {
-  font-size: 18px;
-  font-weight: 900;
-  padding: 15px;
-}
