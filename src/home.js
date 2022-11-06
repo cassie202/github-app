@@ -47,7 +47,7 @@ function Home() {
           <div>
             <div className="container">
               <div className="side-bar">
-                <img src={githubData?.avatar_url} className="avatar" alt='avatar' />
+                <img src={githubData?.avatar_url} className="avatar" alt='my profile' />
                 <h1 className="full-name">{githubData?.name}</h1>
                 <p className="user-name">{githubData?.login}</p>
                 <p className="description">{githubData?.bio}</p>
