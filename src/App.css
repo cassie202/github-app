@@ -4,16 +4,21 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: #343a40;
-    background: #e9ecef;
+    background: #C5D5E4;
 }
 .container{
   display: flex;
-  
+  padding: 3rem
 }
 .get-data{
   color:#4361ee;
+  font-size: 1.8rem;
 }
 
+.side-bar {
+  margin-right: 5rem;
+  text-align: center;
+}
 #input{
   padding: 5px 100px;
   border: 0.5px solid #6c7075; 
@@ -25,18 +30,44 @@ body {
 
 }
 
-.Home-btn {
-  background: #4895ef;
-  color: #e9ecef;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  margin-top: 20px;
-}
-
 .Errorcontainer {
   text-align: center;
   margin: 200px;
 }
 
+.btn-div {
+  text-align: center;
+
+}
+
+button {
+  margin-left: 0.5rem;
+  background-color: #297373;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5rem;
+  }
+  
+  button:disabled,
+  button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: auto;
+  
+  }
+  
+  .repo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.repo-div {
+  width: 50%;
+  text-align: center;
+}
