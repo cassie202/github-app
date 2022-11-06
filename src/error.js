@@ -9,7 +9,7 @@ function Error() {
   };
 
   return (
-    <div className="Errorcontainer">
+    <div className="Error-container">
       <h2>Oops! Something Went Wrong!</h2>
       <p>Check the url and try again.</p>
       <button className="Home-btn" onClick={handleRedirectToHome}>Back to Home</button>
