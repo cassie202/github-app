@@ -4,6 +4,7 @@ import Repo from "./Repo";
 import Home from "./Home";
 import Error from "./Error";
 import "./App.css";
+import Navbar from "./Nav"
 
     
  function App() {
