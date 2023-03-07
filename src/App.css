@@ -7,8 +7,9 @@ body {
   background: #ffff;
   line-height: 1.5;
 }
+
 .github-logo{
-  width: 10px;
+  width: 2px;
 }
 .heading{
    color: #297373;
@@ -16,7 +17,7 @@ body {
 }
 .container{
   display: flex;
-  padding: 3rem
+  padding: 3rem;
 }
 .get-data{
   color: #2b2b30;
@@ -38,7 +39,8 @@ body {
 }
 .avatar{
   width: 100px;
-  border-radius:50px;
+  border-radius:60px;
+  padding: 10px;
 }
 
 .Error-container {
@@ -120,7 +122,9 @@ ul,li,a{
 .description{
   line-height: 1.0;
   font-size: 15px;
-  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 400px;
+  padding: 5px;
 }
 .followers{
   line-height: 1.0;
