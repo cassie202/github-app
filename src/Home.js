@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Nav"
 
 function Home() {
 
@@ -42,6 +43,7 @@ function Home() {
 
   return (
     <>
+    <Navbar/>
       {
         isLoading ? <p>Loading...</p> :
           <div>
@@ -51,7 +53,7 @@ function Home() {
                 <h1 className="full-name">{githubData?.name}</h1>
                 <p className="user-name">{githubData?.login}</p>
                 <p className="description">{githubData?.bio}</p>
-                <p>{`${githubData?.followers} Followers ${githubData?.following} Following`} </p>
+                <p className="followers">{`${githubData?.followers} Followers ${githubData?.following} Following`} </p>
               </div>
               <div className="main">
                 <h1 className="heading">List of all my {githubData?.public_repos} Repositories </h1>
@@ -59,7 +61,7 @@ function Home() {
                   githubRepos?.map(repo => {
                     return (
                       <div>
-                        <Link to={`/repo/${repo.name}`} className="get-data">{repo?.name}</Link>
+                        <Link to={`/repo/${repo.name}`} className ="get-data">{repo?.name}</Link>
                         <p className="public">{repo?.private ? "Private" : "Public"}</p>
                         <p className="language">Language: {repo?.language}</p>
                         <p className="language">Stars: {repo?.stargazers_count}</p>

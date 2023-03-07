@@ -4,20 +4,32 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: #343a40;
-    background: #ffff;
+  background: #ffff;
+  line-height: 1.5;
+}
+.github-logo{
+  width: 10px;
+}
+.heading{
+   color: #297373;
+   margin-bottom: 80px;
 }
 .container{
   display: flex;
   padding: 3rem
 }
 .get-data{
-  color:#4361ee;
+  color: #2b2b30;
   font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .side-bar {
   margin-right: 5rem;
   text-align: center;
+  background: #FEF7E5;
+  height: 400px;
+
 }
 #input{
   padding: 5px 100px;
@@ -27,7 +39,6 @@ body {
 .avatar{
   width: 100px;
   border-radius:50px;
-
 }
 
 .Error-container {
@@ -37,7 +48,6 @@ body {
 
 .btn-div {
   text-align: center;
-
 }
 
 button {
@@ -57,7 +67,6 @@ button {
     background-color: #cccccc;
     color: #666666;
     cursor: auto;
-  
   }
   
   .repo-wrapper {
@@ -65,9 +74,66 @@ button {
     justify-content: center;
     align-items: center;
     align-content: center;
+    
 }
 
 .repo-div {
-  width: 50%;
   text-align: center;
+  margin: 50px;
+}
+.nav-bar{
+  background: #FEF7E5;
+}
+
+.nav-bar{
+  display:flex;
+  justify-content: space-between;
+}
+.nav-item{
+  display: flex;
+  justify-content: space-between; 
+}
+
+ul,li{
+  list-style: none;
+  padding : 5px;
+  text-decoration: none;
+}
+
+ul,li,a{
+  text-decoration: none;
+  color:rgb(29, 28, 28);
+  font-size: 18px;
+}
+.public{
+  color: #297373
+}
+.language{
+  line-height: 0.5;
+}
+.full-name{
+  font-size: 1.5rem;
+}
+.user-name{
+  line-height: 1.5;
+}
+.description{
+  line-height: 1.0;
+  font-size: 15px;
+  overflow-wrap: break-word;
+}
+.followers{
+  line-height: 1.0;
+  font-size: 14px;
+}
+
+.go-to-repo{
+  margin-left: 0.5rem;
+  background-color: #297373;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5rem;
 }
