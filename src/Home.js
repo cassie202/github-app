@@ -55,7 +55,7 @@ function Home() {
                 <p className="description">{githubData?.bio}</p>
                 <p className="followers">{`${githubData?.followers} Followers ${githubData?.following} Following`} </p>
               </div>
-              <div className="main">
+              <div className="section">
                 <h1 className="heading">List of all my {githubData?.public_repos} Repositories </h1>
                 {
                   githubRepos?.map(repo => {
