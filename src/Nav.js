@@ -1,10 +1,11 @@
-import { ReactComponent as Logo } from './Github.svg'
+import  Logo  from "./github.png"
+import "./App.css"
 
 const Navbar = () => {
   return (
     <nav className ='nav-bar'>
-      <div className='github-logo'>
-        <Logo/>
+      <div >
+      <img className="github-logo" src= {Logo} alt="Github logo"/>
       </div>
       <div>
         <ul className='nav-item'>

@@ -8,9 +8,9 @@ body {
   line-height: 1.5;
 }
 
-.github-logo{
+/* .github-logo{
   width: 2px;
-}
+} */
 .heading{
    color: #297373;
    margin-bottom: 80px;
@@ -140,4 +140,9 @@ ul,li,a{
   color: white;
   cursor: pointer;
   margin-bottom: 5rem;
+}
+.github-logo{
+  width: 50px;
+  align-items: center;
+  padding: 4px;
 }
